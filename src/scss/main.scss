@@ -1,3 +1,9 @@
+@import './resets';
+@import './mixins';
+@import './colors';
+@import './components/main';
+@import './components/separator';
+@import './components/notes';
 $primary:teal;
 body{
     background-color:$primary;

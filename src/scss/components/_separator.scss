@@ -1,0 +1,10 @@
+$lineWidth: 5px;
+.separator-line{
+    //@include parentCentering;
+        height:100%;
+        width:$lineWidth;
+        background-color:white;
+        position:absolute;
+        left:50%;
+        transform:translate(-50%,0);
+}
