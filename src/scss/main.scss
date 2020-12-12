@@ -1,10 +1,20 @@
 @import './resets';
 @import './mixins';
 @import './colors';
+@import './components/header';
 @import './components/main';
+@import './components/footer';
 @import './components/separator';
 @import './components/notes';
+@import './components/newNote';
 $primary:teal;
+html{
+    height:100%;
+}
 body{
-    background-color:$primary;
+    background-color:$primaryColor;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    color:$primaryTextColor;
 }

@@ -1,0 +1,22 @@
+$mediaQueryWidth: 660px;
+header{
+    padding: 1rem;
+    h1{
+        margin-bottom:1rem;
+    }
+    input{
+        font-size:1rem;
+        padding:0.2rem;
+    }
+
+}
+
+@media screen and(max-width:$mediaQueryWidth){
+    .filters{
+        display:flex;
+        flex-direction:column;
+        input:not(:last-child){
+            margin-bottom:5px;
+        }
+    }
+}

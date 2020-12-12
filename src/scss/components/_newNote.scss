@@ -1,0 +1,18 @@
+.new-note-container{
+
+    background-color:$primaryColor;
+    height:$footerHeight;
+    position:fixed;
+    z-index:100;
+    bottom:0;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    .fa-plus-circle{
+        color:$secondaryColor;
+        cursor:pointer;
+        background-color:white;
+        border-radius:50%;
+    }
+}

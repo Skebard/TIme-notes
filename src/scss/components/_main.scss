@@ -1,8 +1,11 @@
+$footerHeight: 80px;
+
 main{
     position:relative;
     display:flex;
     justify-content:center;
-
+    padding-bottom:$footerHeight+20px;
     width:100%;
     background-color:rgb(68, 105, 144);
+    flex-grow:1;
 }
