@@ -1,0 +1,27 @@
+.modal{
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:9999;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    .modal-content{
+
+        width:100%;
+        padding:0 10%;
+        textarea{
+            height:200px;
+            width:100%;
+        }
+        input[type=submit],button{
+            font-size:1rem;
+            padding:0.6rem;
+            cursor:pointer;
+        }
+        button{
+            background-color:$secondaryColor;
+        }
+    }
+}

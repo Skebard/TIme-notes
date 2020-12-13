@@ -7,9 +7,12 @@
 @import './components/separator';
 @import './components/notes';
 @import './components/newNote';
-$primary:teal;
+@import './components/modal';
 html{
     height:100%;
+}
+.hide{
+    display:none !important;
 }
 body{
     background-color:$primaryColor;
