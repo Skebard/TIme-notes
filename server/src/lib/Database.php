@@ -1,10 +1,5 @@
 <?php
 
-define('HOST','localhost');
-define('DATABASE','notes');
-define('USER','ske');
-define('PASSWORD','MyPass#1234');
-echo 'hi';
 class Database
 {
 
@@ -57,8 +52,3 @@ class Database
     }
 }
 
-
-$a = new Database();
-$b = $a->execute('SELECT * FROM users');
-var_dump($b->fetchAll());
-//$a->execute("insert into users (username, email) VALUES ('ton23i','t23@gmail.com')");

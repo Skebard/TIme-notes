@@ -1,6 +1,11 @@
 import "./scss/main.scss";
 
+import config from './js/config.js';
+const Note = require('./js/Note.js');
+
 import func1 from './js/func.js';
+
+console.log(config.API);
 
 //*** HTML elements */
 const newNoteBtn = document.getElementById('new-note-btn');
@@ -10,6 +15,9 @@ const newNoteForm = document.getElementById('new-note-form')
 //*** Event listeners ***/
 newNoteBtn.addEventListener('click', displayModal);
 newNoteForm.addEventListener('click', handleNoteForm);
+
+// let a =  new Note;
+// a.displayNote();
 
 
 
@@ -24,6 +32,12 @@ function handleNoteForm(e) {
             newNoteModal.classList.add('hide');
             break;
         case newNoteCreateBtn:
+            if(createNote){
+                // success
+            }
+            else{
+                // fail
+            }
             break;
         default:
             break;
